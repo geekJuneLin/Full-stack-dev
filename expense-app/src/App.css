@@ -1,0 +1,12 @@
+.App {
+  width: 32%;
+  min-width: 320px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+
+.App h1 {
+  margin-bottom: 1.5em;
+}

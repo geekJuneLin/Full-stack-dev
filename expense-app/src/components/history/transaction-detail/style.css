@@ -1,0 +1,24 @@
+.details {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px;
+  margin: 4px 0;
+  background-color: #fff;
+  box-shadow: 0 1px 2px gray;
+  cursor: pointer;
+}
+
+.details span {
+  display: block;
+}
+
+.delete {
+  position: absolute;
+  opacity: 0;
+  left: -25px;
+  padding: 0 6px;
+  background-color: red;
+  color: #fff;
+  border-radius: 2px;
+}

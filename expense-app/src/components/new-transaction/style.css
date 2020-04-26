@@ -1,0 +1,44 @@
+.add-new-transaction {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-new-transaction h2 {
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid gray;
+}
+
+form input,
+form button {
+  display: block;
+  width: 100%;
+}
+
+form p {
+  font-weight: 600;
+}
+
+.add-new-transaction input {
+  margin: 10px 0;
+  padding: 8px 6px;
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 2px #dddddd;
+}
+
+.add-new-transaction button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 12px;
+  background-color: rgb(138, 77, 252);
+  color: #fff;
+}
+
+.add-new-transaction button:hover {
+  transition: all 0.5s ease;
+  background-color: rgb(115, 45, 245);
+}
